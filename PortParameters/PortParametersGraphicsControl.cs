@@ -379,46 +379,6 @@ namespace DataViewer.PortParameters
 
         #endregion
 
-        private void AddGraph(GraphsType graphsType)
-        {
-            
-            //foreach (var graphs in GraphSetControl.Graphs)
-            //{
-            //    switch (graphsType)
-            //    {
-            //        case GraphsType.SmithRec:
-            //            {
-            //                graphs.Controls.Remove(graphs);
-            //                Graphs[0].Diagram = new SmithDiagram();
-            //                Graphs[1].Diagram = new RectangularDiagram();
-            //                Graphs[2].Diagram = new RectangularDiagram();
-            //                Graphs[3].Diagram = new SmithDiagram();
-            //            }
-            //            break;
-            //        case GraphsType.Rectangular:
-            //            {
-            //                graphs.Controls.Remove(graphs);
-            //                Graphs[0].Diagram = new RectangularDiagram();
-            //                Graphs[1].Diagram = new RectangularDiagram();
-            //                Graphs[2].Diagram = new RectangularDiagram();
-            //                Graphs[3].Diagram = new RectangularDiagram();
-            //            }
-            //            break;
-            //        case GraphsType.Smith:
-            //            {
-            //                graphs.Controls.Remove(graphs);
-            //                Graphs[0].Diagram = new SmithDiagram();
-            //                Graphs[1].Diagram = new SmithDiagram();
-            //                Graphs[2].Diagram = new SmithDiagram();
-            //                Graphs[3].Diagram = new SmithDiagram();
-            //            }
-            //            break;
-            //    }
-            //    GraphSetControl.AddMaximize(); //Добавляем Maximize в контекстное меню у графиков.
-            //}
-        }
-
-
-
+        private void AddGraph(GraphsType graphsType){}
     }
 }
